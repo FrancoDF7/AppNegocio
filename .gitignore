@@ -1,0 +1,22 @@
+
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Configuración de Visual Studio
+.vs/
+*.user
+*.suo
+*.vsp
+*.vspscc
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Paquetes y dependencias
+packages/
+*.nupkg
+*.snupkg
