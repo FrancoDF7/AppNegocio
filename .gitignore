@@ -1,22 +1,54 @@
 
-# Ignorar carpetas de compilación
+# ============================
+# Archivos de compilación
+# ============================
 bin/
 obj/
 
+# ============================
 # Configuración de Visual Studio
+# ============================
 .vs/
 *.user
 *.suo
-*.vsp
-*.vspscc
 
+# ============================
+# Paquetes NuGet
+# ============================
+packages/
+*.nupkg
+*.snupkg
+
+# ============================
 # Archivos de logs y temporales
+# ============================
 *.log
 *.tmp
 *.bak
 *.cache
 
-# Paquetes y dependencias
-packages/
-*.nupkg
-*.snupkg
+# ============================
+# Configuración local y secretos
+# ============================
+*.env
+appsettings.Development.json
+
+# ============================
+# Archivos de publicación
+# ============================
+publish/
+*.zip
+*.tar.gz
+
+# ============================
+# Archivos de sistema (Windows)
+# ============================
+Thumbs.db
+Desktop.ini
+
+# ============================
+# Archivos de pruebas
+# ============================
+TestResults/
+*.coverage
+*.trx
