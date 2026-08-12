@@ -1,4 +1,4 @@
-namespace CapaPresentacion
+namespace AppNegocio.Vista
 {
     public partial class Form1 : Form
     {

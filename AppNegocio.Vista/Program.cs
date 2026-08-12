@@ -1,4 +1,4 @@
-namespace CapaPresentacion
+namespace AppNegocio.Vista
 {
     internal static class Program
     {
