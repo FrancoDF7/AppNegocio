@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace CapaSoporte
+namespace AppNegocio.Vista.Utilidades
 {
     public static class MoverForm
     {
