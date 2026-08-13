@@ -1,6 +1,6 @@
 ﻿namespace AppNegocio.Vista
 {
-    partial class GestionUsuarios
+    partial class formGestionUsuarios
     {
         /// <summary>
         ///  Required designer variable.
@@ -31,29 +31,29 @@
             panelSuperior = new Panel();
             iconTitulo = new FontAwesome.Sharp.IconPictureBox();
             lblTitulo = new Label();
-            panel1 = new Panel();
-            label8 = new Label();
-            textBox7 = new TextBox();
-            label7 = new Label();
-            textBox6 = new TextBox();
-            label6 = new Label();
-            textBox5 = new TextBox();
-            label5 = new Label();
-            textBox4 = new TextBox();
-            label4 = new Label();
-            textBox3 = new TextBox();
-            label3 = new Label();
-            textBox2 = new TextBox();
-            label2 = new Label();
-            textBox1 = new TextBox();
+            panelControles = new Panel();
+            lblCorreElectronico = new Label();
+            txtCorreoElectronico = new TextBox();
+            lblConfirmarContrasena = new Label();
+            txtConfirmarContrasena = new TextBox();
+            lblApellido = new Label();
+            txtApellido = new TextBox();
+            lblNombreUsuario = new Label();
+            txtNombreUsuario = new TextBox();
+            lblContrasena = new Label();
+            txtContrasena = new TextBox();
+            lblNombre = new Label();
+            txtNombre = new TextBox();
+            lblNumeroDocumento = new Label();
+            txtNumeroDocumento = new TextBox();
             btnCambiarImagen = new FontAwesome.Sharp.IconButton();
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
-            panel2 = new Panel();
+            lblSubtitulo = new Label();
+            picUsuario = new PictureBox();
+            panelCentral = new Panel();
             panelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)iconTitulo).BeginInit();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panelControles.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picUsuario).BeginInit();
             SuspendLayout();
             // 
             // panelSuperior
@@ -94,150 +94,151 @@
             lblTitulo.Text = "Gestión de Usuarios";
             lblTitulo.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // panel1
+            // panelControles
             // 
-            panel1.BackColor = Color.FromArgb(219, 226, 239);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(textBox7);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(textBox6);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(textBox5);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(btnCambiarImagen);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(888, 204);
-            panel1.TabIndex = 1;
+            panelControles.AutoSize = true;
+            panelControles.BackColor = Color.FromArgb(219, 226, 239);
+            panelControles.Controls.Add(lblCorreElectronico);
+            panelControles.Controls.Add(txtCorreoElectronico);
+            panelControles.Controls.Add(lblConfirmarContrasena);
+            panelControles.Controls.Add(txtConfirmarContrasena);
+            panelControles.Controls.Add(lblApellido);
+            panelControles.Controls.Add(txtApellido);
+            panelControles.Controls.Add(lblNombreUsuario);
+            panelControles.Controls.Add(txtNombreUsuario);
+            panelControles.Controls.Add(lblContrasena);
+            panelControles.Controls.Add(txtContrasena);
+            panelControles.Controls.Add(lblNombre);
+            panelControles.Controls.Add(txtNombre);
+            panelControles.Controls.Add(lblNumeroDocumento);
+            panelControles.Controls.Add(txtNumeroDocumento);
+            panelControles.Controls.Add(btnCambiarImagen);
+            panelControles.Controls.Add(lblSubtitulo);
+            panelControles.Controls.Add(picUsuario);
+            panelControles.Dock = DockStyle.Top;
+            panelControles.Location = new Point(0, 0);
+            panelControles.Name = "panelControles";
+            panelControles.Size = new Size(888, 195);
+            panelControles.TabIndex = 1;
             // 
-            // label8
+            // lblCorreElectronico
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(563, 60);
-            label8.Name = "label8";
-            label8.Size = new Size(105, 14);
-            label8.TabIndex = 16;
-            label8.Text = "Correo electrónico";
+            lblCorreElectronico.AutoSize = true;
+            lblCorreElectronico.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCorreElectronico.Location = new Point(563, 60);
+            lblCorreElectronico.Name = "lblCorreElectronico";
+            lblCorreElectronico.Size = new Size(105, 14);
+            lblCorreElectronico.TabIndex = 16;
+            lblCorreElectronico.Text = "Correo electrónico";
             // 
-            // textBox7
+            // txtCorreoElectronico
             // 
-            textBox7.Location = new Point(565, 75);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(311, 23);
-            textBox7.TabIndex = 15;
+            txtCorreoElectronico.Location = new Point(565, 75);
+            txtCorreoElectronico.Name = "txtCorreoElectronico";
+            txtCorreoElectronico.Size = new Size(311, 23);
+            txtCorreoElectronico.TabIndex = 15;
             // 
-            // label7
+            // lblConfirmarContrasena
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(346, 154);
-            label7.Name = "label7";
-            label7.Size = new Size(126, 14);
-            label7.TabIndex = 14;
-            label7.Text = "Confirmar contraseña";
+            lblConfirmarContrasena.AutoSize = true;
+            lblConfirmarContrasena.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblConfirmarContrasena.Location = new Point(346, 154);
+            lblConfirmarContrasena.Name = "lblConfirmarContrasena";
+            lblConfirmarContrasena.Size = new Size(126, 14);
+            lblConfirmarContrasena.TabIndex = 14;
+            lblConfirmarContrasena.Text = "Confirmar contraseña";
             // 
-            // textBox6
+            // txtConfirmarContrasena
             // 
-            textBox6.Location = new Point(348, 169);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(189, 23);
-            textBox6.TabIndex = 13;
+            txtConfirmarContrasena.Location = new Point(348, 169);
+            txtConfirmarContrasena.Name = "txtConfirmarContrasena";
+            txtConfirmarContrasena.Size = new Size(189, 23);
+            txtConfirmarContrasena.TabIndex = 13;
             // 
-            // label6
+            // lblApellido
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(344, 106);
-            label6.Name = "label6";
-            label6.Size = new Size(51, 14);
-            label6.TabIndex = 12;
-            label6.Text = "Apellido";
+            lblApellido.AutoSize = true;
+            lblApellido.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblApellido.Location = new Point(344, 106);
+            lblApellido.Name = "lblApellido";
+            lblApellido.Size = new Size(51, 14);
+            lblApellido.TabIndex = 12;
+            lblApellido.Text = "Apellido";
             // 
-            // textBox5
+            // txtApellido
             // 
-            textBox5.Location = new Point(346, 121);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(189, 23);
-            textBox5.TabIndex = 11;
+            txtApellido.Location = new Point(346, 121);
+            txtApellido.Name = "txtApellido";
+            txtApellido.Size = new Size(189, 23);
+            txtApellido.TabIndex = 11;
             // 
-            // label5
+            // lblNombreUsuario
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(346, 60);
-            label5.Name = "label5";
-            label5.Size = new Size(112, 14);
-            label5.TabIndex = 10;
-            label5.Text = "Nombre de Usuario";
+            lblNombreUsuario.AutoSize = true;
+            lblNombreUsuario.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblNombreUsuario.Location = new Point(346, 60);
+            lblNombreUsuario.Name = "lblNombreUsuario";
+            lblNombreUsuario.Size = new Size(112, 14);
+            lblNombreUsuario.TabIndex = 10;
+            lblNombreUsuario.Text = "Nombre de Usuario";
             // 
-            // textBox4
+            // txtNombreUsuario
             // 
-            textBox4.Location = new Point(348, 75);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(189, 23);
-            textBox4.TabIndex = 9;
+            txtNombreUsuario.Location = new Point(348, 75);
+            txtNombreUsuario.Name = "txtNombreUsuario";
+            txtNombreUsuario.Size = new Size(189, 23);
+            txtNombreUsuario.TabIndex = 9;
             // 
-            // label4
+            // lblContrasena
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(131, 154);
-            label4.Name = "label4";
-            label4.Size = new Size(70, 14);
-            label4.TabIndex = 8;
-            label4.Text = "Contraseña";
+            lblContrasena.AutoSize = true;
+            lblContrasena.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblContrasena.Location = new Point(131, 154);
+            lblContrasena.Name = "lblContrasena";
+            lblContrasena.Size = new Size(70, 14);
+            lblContrasena.TabIndex = 8;
+            lblContrasena.Text = "Contraseña";
             // 
-            // textBox3
+            // txtContrasena
             // 
-            textBox3.Location = new Point(133, 169);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(189, 23);
-            textBox3.TabIndex = 7;
+            txtContrasena.Location = new Point(133, 169);
+            txtContrasena.Name = "txtContrasena";
+            txtContrasena.Size = new Size(189, 23);
+            txtContrasena.TabIndex = 7;
             // 
-            // label3
+            // lblNombre
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(131, 106);
-            label3.Name = "label3";
-            label3.Size = new Size(51, 14);
-            label3.TabIndex = 6;
-            label3.Text = "Nombre";
+            lblNombre.AutoSize = true;
+            lblNombre.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblNombre.Location = new Point(131, 106);
+            lblNombre.Name = "lblNombre";
+            lblNombre.Size = new Size(51, 14);
+            lblNombre.TabIndex = 6;
+            lblNombre.Text = "Nombre";
             // 
-            // textBox2
+            // txtNombre
             // 
-            textBox2.Location = new Point(133, 121);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(189, 23);
-            textBox2.TabIndex = 5;
+            txtNombre.Location = new Point(133, 121);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(189, 23);
+            txtNombre.TabIndex = 5;
             // 
-            // label2
+            // lblNumeroDocumento
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(131, 60);
-            label2.Name = "label2";
-            label2.Size = new Size(117, 14);
-            label2.TabIndex = 4;
-            label2.Text = "Número Documento";
+            lblNumeroDocumento.AutoSize = true;
+            lblNumeroDocumento.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblNumeroDocumento.Location = new Point(131, 60);
+            lblNumeroDocumento.Name = "lblNumeroDocumento";
+            lblNumeroDocumento.Size = new Size(117, 14);
+            lblNumeroDocumento.TabIndex = 4;
+            lblNumeroDocumento.Text = "Número Documento";
             // 
-            // textBox1
+            // txtNumeroDocumento
             // 
-            textBox1.Location = new Point(133, 75);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(189, 23);
-            textBox1.TabIndex = 3;
+            txtNumeroDocumento.Location = new Point(133, 75);
+            txtNumeroDocumento.Name = "txtNumeroDocumento";
+            txtNumeroDocumento.Size = new Size(189, 23);
+            txtNumeroDocumento.TabIndex = 3;
             // 
             // btnCambiarImagen
             // 
@@ -257,51 +258,55 @@
             btnCambiarImagen.UseVisualStyleBackColor = false;
             btnCambiarImagen.Click += btnCambiarImagen_Click;
             // 
-            // label1
+            // lblSubtitulo
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Roboto", 12F, FontStyle.Bold);
-            label1.ForeColor = Color.FromArgb(63, 114, 175);
-            label1.Location = new Point(130, 31);
-            label1.Name = "label1";
-            label1.Size = new Size(165, 19);
-            label1.TabIndex = 1;
-            label1.Text = "DATOS DEL USUARIO";
+            lblSubtitulo.AutoSize = true;
+            lblSubtitulo.Font = new Font("Roboto", 12F, FontStyle.Bold);
+            lblSubtitulo.ForeColor = Color.FromArgb(63, 114, 175);
+            lblSubtitulo.Location = new Point(130, 31);
+            lblSubtitulo.Name = "lblSubtitulo";
+            lblSubtitulo.Size = new Size(165, 19);
+            lblSubtitulo.TabIndex = 1;
+            lblSubtitulo.Text = "DATOS DEL USUARIO";
             // 
-            // pictureBox1
+            // picUsuario
             // 
-            pictureBox1.Location = new Point(12, 31);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(113, 113);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            picUsuario.Location = new Point(12, 31);
+            picUsuario.Name = "picUsuario";
+            picUsuario.Size = new Size(113, 113);
+            picUsuario.TabIndex = 0;
+            picUsuario.TabStop = false;
             // 
-            // panel2
+            // panelCentral
             // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel2.BackColor = Color.White;
-            panel2.Location = new Point(6, 210);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(876, 307);
-            panel2.TabIndex = 2;
+            panelCentral.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panelCentral.BackColor = Color.White;
+            panelCentral.Location = new Point(6, 201);
+            panelCentral.Name = "panelCentral";
+            panelCentral.Size = new Size(876, 316);
+            panelCentral.TabIndex = 2;
             // 
-            // GestionUsuarios
+            // formGestionUsuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(63, 114, 175);
             ClientSize = new Size(888, 522);
-            Controls.Add(panel2);
+            Controls.Add(panelCentral);
             Controls.Add(panelSuperior);
-            Controls.Add(panel1);
-            Name = "GestionUsuarios";
+            Controls.Add(panelControles);
+            MinimumSize = new Size(904, 561);
+            Name = "formGestionUsuarios";
             Text = "Form1";
+            Load += GestionUsuarios_Load;
+            Resize += GestionUsuarios_Resize;
             panelSuperior.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)iconTitulo).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panelControles.ResumeLayout(false);
+            panelControles.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picUsuario).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -309,24 +314,24 @@
         private Panel panelSuperior;
         private Label lblTitulo;
         private FontAwesome.Sharp.IconPictureBox iconTitulo;
-        private Panel panel1;
-        private PictureBox pictureBox1;
-        private Label label1;
-        private Panel panel2;
+        private Panel panelControles;
+        private PictureBox picUsuario;
+        private Label lblSubtitulo;
+        private Panel panelCentral;
         private FontAwesome.Sharp.IconButton btnCambiarImagen;
-        private Label label2;
-        private TextBox textBox1;
-        private Label label3;
-        private TextBox textBox2;
-        private Label label8;
-        private TextBox textBox7;
-        private Label label7;
-        private TextBox textBox6;
-        private Label label6;
-        private TextBox textBox5;
-        private Label label5;
-        private TextBox textBox4;
-        private Label label4;
-        private TextBox textBox3;
+        private Label lblNumeroDocumento;
+        private TextBox txtNumeroDocumento;
+        private Label lblNombre;
+        private TextBox txtNombre;
+        private Label lblCorreElectronico;
+        private TextBox txtCorreoElectronico;
+        private Label lblConfirmarContrasena;
+        private TextBox txtConfirmarContrasena;
+        private Label lblApellido;
+        private TextBox txtApellido;
+        private Label lblNombreUsuario;
+        private TextBox txtNombreUsuario;
+        private Label lblContrasena;
+        private TextBox txtContrasena;
     }
 }
