@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNegocio.Negocio", "AppNe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNegocio.Vista", "AppNegocio.Vista\AppNegocio.Vista.csproj", "{C7025B2E-0AF9-4A28-9E0B-ACB2CEA16E88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNegocio.Soporte", "AppNegocio.Soporte\AppNegocio.Soporte.csproj", "{4D4A12E8-47CB-4CBC-9C62-9E96BC8F80FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C7025B2E-0AF9-4A28-9E0B-ACB2CEA16E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7025B2E-0AF9-4A28-9E0B-ACB2CEA16E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7025B2E-0AF9-4A28-9E0B-ACB2CEA16E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4A12E8-47CB-4CBC-9C62-9E96BC8F80FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4A12E8-47CB-4CBC-9C62-9E96BC8F80FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4A12E8-47CB-4CBC-9C62-9E96BC8F80FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4A12E8-47CB-4CBC-9C62-9E96BC8F80FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
